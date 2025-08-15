@@ -1,5 +1,3 @@
-import 'dart:math' as math;
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
@@ -56,7 +54,7 @@ class GradientUnderlineInputBorder extends InputBorder {
     TextDirection? textDirection,
   }) {
     final paint = _getPaint(rect);
-    Rect underlineRect =
+    final underlineRect =
         Rect.fromLTWH(rect.left, rect.height - width, rect.width, width);
     canvas.drawRect(underlineRect, paint);
   }
