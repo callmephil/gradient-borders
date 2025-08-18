@@ -5,7 +5,7 @@ repository: https://github.com/obiwanzenobi/gradient-borders
 
 environment:
   sdk: ^3.9.0
-  flutter: ^3.35.1
+  flutter: ^3.0.0
 
 dependencies:
   flutter:
